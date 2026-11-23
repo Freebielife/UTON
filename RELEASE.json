@@ -1,0 +1,26 @@
+{
+  "templateVersion": "1.3.0",
+  "templateCommit": "6578013",
+  "htmlSha256": "f75002bd2cd836516ec20b8919b7d7f9c4a2782b560c9dfdd9a7cc9b6c17b441",
+  "htmlBytes": 375511,
+  "pythonTests": 21,
+  "nodeTests": 15,
+  "browserDesktop": true,
+  "browserMobileFrameWidths": [
+    375,
+    320
+  ],
+  "mobileContentWidths": [
+    360,
+    305
+  ],
+  "horizontalOverflow": false,
+  "holderExpansion": "unavailable: inconsistent source supply",
+  "tonStoragePublished": false,
+  "cloudflareRegistration": "prepared only, not deployed",
+  "githubSchedule": "13,43 * * * *; execution unverified at source commit",
+  "sourcePublication": "authorized_by_user",
+  "publicRepository": "Freebielife/UTON",
+  "localImplementationCommit": "23a4889",
+  "automaticRefreshVerified": false
+}

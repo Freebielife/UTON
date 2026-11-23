@@ -1,0 +1,6 @@
+{
+  "id": "uton", "owner": "Freebielife", "repo": "UTON",
+  "workflow": "update.yml", "ref": "main", "everyMinutes": 30,
+  "phaseMinutes": 20, "enabled": true,
+  "status": "prepared_only_not_deployed"
+}

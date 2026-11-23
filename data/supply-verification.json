@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-11-23",
+  "master": "0:1f1798f724c2296652e6002bfb51bed11fb5a689532e5788af7203581ef367a8",
+  "master_getter": {
+    "url": "https://tonapi.io/v2/blockchain/accounts/EQAfF5j3JMIpZlLmACv7Ub7RH7WmiVMuV4ivcgNYHvNnqHTz/methods/get_jetton_data",
+    "total_supply_base_units": "30472672432754"
+  },
+  "largest_wallet_getter": {
+    "url": "https://tonapi.io/v2/blockchain/accounts/0:d1ffa935c70e62934ba638b00a9a4fe23e260404c987b67b18e22ea5257717eb/methods/get_wallet_data",
+    "balance": "478870573420187369",
+    "owner": "0:d74136549b2779291a0fddcbe35df5ceb71e8521960e02dc171c4bb64d8ed64e",
+    "jetton": "0:1f1798f724c2296652e6002bfb51bed11fb5a689532e5788af7203581ef367a8"
+  },
+  "canonical_wallet_getter": {
+    "url": "https://tonapi.io/v2/blockchain/accounts/EQAfF5j3JMIpZlLmACv7Ub7RH7WmiVMuV4ivcgNYHvNnqHTz/methods/get_wallet_address?args=0:d74136549b2779291a0fddcbe35df5ceb71e8521960e02dc171c4bb64d8ed64e",
+    "jetton_wallet_address": "0:d1ffa935c70e62934ba638b00a9a4fe23e260404c987b67b18e22ea5257717eb"
+  },
+  "independent_indexer": {
+    "url": "https://toncenter.com/api/v3/jetton/wallets?jetton_address=EQAfF5j3JMIpZlLmACv7Ub7RH7WmiVMuV4ivcgNYHvNnqHTz&limit=100&sort=desc",
+    "first_wallet": {
+      "address": "0:D1FFA935C70E62934BA638B00A9A4FE23E260404C987B67B18E22EA5257717EB",
+      "balance": "478870573420187369",
+      "owner": "0:D74136549B2779291A0FDDCBE35DF5CEB71E8521960E02DC171C4BB64D8ED64E",
+      "jetton": "0:1F1798F724C2296652E6002BFB51BED11FB5A689532E5788AF7203581EF367A8",
+      "last_transaction_lt": "112247456000015",
+      "code_hash": "fRcHD+NE1+grxiSq+kVOURFHU1Au3nFxwhK9QsyKO7Q=",
+      "data_hash": "u9CtunrO3h/UofQq7Fog0vs1kIWyLRNCFhboeqv/IQg="
+    }
+  },
+  "policy": "Do not publish holder rankings or market cap from inconsistent supply; retry every refresh. No root cause asserted."
+}

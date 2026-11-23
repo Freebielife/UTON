@@ -1,6 +1,7 @@
-# TON Observatory Template — canonical shared source
+# uTON Observatory — generated project
 
-This repository is the canonical basis for future observatories. Do not read or
+This repository is the uTON project generated from TON-Observatory-Template 1.3.0.
+The shared factory is Freebielife/TON-Observatory-Template. Do not read or
 clone Freebielife/Ludoman to generate a new site. Use only this repository's local
 reference/ files, scripts, shared registry and tests. Ludoman is an independent
 project and may be changed without migrating its customizations here.
