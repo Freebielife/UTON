@@ -1,8 +1,8 @@
 {
   "templateVersion": "1.3.0",
   "templateCommit": "6578013",
-  "htmlSha256": "f75002bd2cd836516ec20b8919b7d7f9c4a2782b560c9dfdd9a7cc9b6c17b441",
-  "htmlBytes": 375511,
+  "htmlSha256": "0e4bc8832a739d6a0c728fc0fe0e33da9ef6209fa9bccb852a26c799cf368f4b",
+  "htmlBytes": 400421,
   "pythonTests": 21,
   "nodeTests": 15,
   "browserDesktop": true,
@@ -18,9 +18,17 @@
   "holderExpansion": "unavailable: inconsistent source supply",
   "tonStoragePublished": false,
   "cloudflareRegistration": "prepared only, not deployed",
-  "githubSchedule": "13,43 * * * *; execution unverified at source commit",
-  "sourcePublication": "authorized_by_user",
+  "githubSchedule": "13,43 * * * *",
+  "sourcePublication": "published",
   "publicRepository": "Freebielife/UTON",
   "localImplementationCommit": "23a4889",
-  "automaticRefreshVerified": false
+  "automaticRefreshVerified": true,
+  "sourceCommit": "1f6c6396f304c388f967c29cad86d37a71ddcea0",
+  "snapshotCommit": "fd069f2062ad4ebdd083125b5d1d241b20505304",
+  "refreshTrigger": "push",
+  "scheduledRefreshObserved": false,
+  "workflowRun": "https://github.com/Freebielife/UTON/actions/runs/45267631424",
+  "tradeRows": 346,
+  "historyComplete": true,
+  "browserSourceUnchangedSinceQA": true
 }
