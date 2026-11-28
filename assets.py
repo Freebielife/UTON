@@ -1,4 +1,6 @@
 """uTON holder snapshot and confirmed burns from the jetton master's transactions."""
+import base64
+import binascii
 import json
 import re
 import time
@@ -32,10 +34,18 @@ def fetch(path, attempts=3, *, api=API):
 
 
 def raw_address(value):
-    address = str(value).lower()
-    if not RAW_ADDRESS.fullmatch(address):
-        raise ValueError("Invalid TON address in response")
-    return address
+    address = str(value)
+    if RAW_ADDRESS.fullmatch(address.lower()):
+        return address.lower()
+    if re.fullmatch(r"[A-Za-z0-9_+/-]{48}", address):
+        try:
+            data = base64.b64decode(address, altchars=b"-_", validate=True)
+            if len(data) == 36 and data[0] in (0x11, 0x51):
+                if binascii.crc_hqx(data[:34], 0) == int.from_bytes(data[34:], "big"):
+                    return f"{int.from_bytes(data[1:2], 'big', signed=True)}:{data[2:34].hex()}"
+        except (ValueError, binascii.Error):
+            pass
+    raise ValueError("Invalid TON address in response")
 
 
 def token_amount(units):
